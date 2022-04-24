@@ -1,0 +1,104 @@
+baseURL = "https://bhavansh.netlify.app"
+defaultContentLanguage = "en"
+enableEmoji = true
+enableRobotsTXT = true
+languageCode = "en"
+theme = "gokarna"
+title = "Bhavansh Gupta"
+
+# Choose one of emacs, trac or perldoc
+pygmentsStyle = "monokai"
+
+[params]
+description = [
+  {text = "Hi, I'm Bhavansh Gupta, a software engineer based in Pune, India."},
+  {text = "I'm passionate about building software that improves the lives of people."},
+  {text = "I love to learn new technologies and solve problems."},
+  {text = "I'm a self-taught programmer, currently working on a few projects."},
+]
+footer = "Bhavansh Gupta"
+
+avatarSize = "size-s"
+avatarURL = "/images/avatar.jpg"
+customHeadHTML = """
+    <!-- KaTeX -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.16/dist/katex.min.css" integrity="sha384-6LkG2wmY8FK9E0vU9OOr8UvLwsaqUg9SETfpq4uTCN1agNe8HRdE9ABlk+fVx6gZ" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.16/dist/katex.min.js" integrity="sha384-31El76TwmbHj4rF9DyLsygbq6xoIobG0W+jqXim+a3dU9W53tdH3A/ngRPxOzzaB" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.16/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+  """
+locationURL = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60456.34761038514!2d73.64569612313646!3d18.730218895408356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b18c9f6f28ab%3A0xf54abf78a676fa6d!2sTalegaon%20Dabhade%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1650769168058!5m2!1sen!2sin"
+metaKeywords = ["Bhavansh Gupta", "Resume", "Personal Website"]
+resumeURL = "Bhavansh_Resume.pdf"
+socialIcons = [
+  # {name = "twitter", url = "https://example.com"},
+  {name = "linkedin", url = "https://www.linkedin.com/in/bhavanshgupta/"},
+  {name = "stackoverflow", url = "https://stackoverflow.com/users/13806440/bhavansh-gupta"}, # {name = "dribbble", url = "https://example.com"},
+  {name = "github", url = "https://github.com/bhavansh"},
+  {name = "codechef", url = "https://www.codechef.com/users/bhavansh_11"},
+  {name = "codeforces", url = "https://codeforces.com/profile/bhavansh_11"},
+  {name = "email", url = "mailto:bhavanshofficial@gmail.com"},
+]
+# showpostsonhomepage = "recent"
+experience = [
+  # {name = "Interactive Brokers", logo = "/icons/companies/ibkr.svg", job_title = "FSG Intern (SLM Platform Development IND)", date = "Aug 2020 - June 2021", text = ["Will join in july 2022"]},
+  {name = "PTC", logo = "/icons/companies/ptc.svg", job_title = "FSG Intern (SLM Platform Development IND)", date = "Aug 2020 - June 2021", text = [
+    "Working in PTC Arbortext (Arbortext Content Delivery) team as a full-time intern.",
+    "PTC Arbortext Content Delivery provides a collection of tools and features to support the delivery of content authored in Windchill (SIM/SP), third-party system, or CSV data into PTC Arbortext Content Delivery.",
+    "Responsible for creating new automations and updating existing automations for successful deployment and testing of ACD, closely working with QA to resolve bugs and failures. I successfully resolved SPR's which included some critical bug fixes. ",
+  ]},
+]
+
+[menu]
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 2
+
+[[menu.main]]
+name = "Projects"
+url = "/projects/"
+weight = 3
+
+# [[menu.main]]
+#   name = "Certifications"
+#   url = "/certifications/"
+#   weight = 4
+
+[[menu.main]]
+name = "Contact"
+url = "/contact/"
+weight = 5
+
+[[menu.main]]
+name = "Posts"
+url = "/posts/"
+weight = 6
+
+# [[menu.main]]
+#   name = "Tags"
+#   url = "/tags/"
+#   weight = 4
+
+# [[menu.main]]
+#   identifier = "github"
+#   pre = "<span data-feather='github'></span>"
+#   url = "https://github.com/526avijitgupta/gokarna"
+#   weight = 5
+
+# [[menu.main]]
+#   identifier = "buymeacoffee"
+#   pre = "<span data-feather='coffee'></span>"
+#   url = "https://www.buymeacoffee.com/avijitgupta"
+#   weight = 6
+
+[[menu.main]]
+identifier = "rss"
+pre = "<span data-feather='rss'></span>"
+url = "/index.xml"
+weight = 10

@@ -1,0 +1,58 @@
+<div class="post container">
+
+    <div class="post-header-section">
+        <h1>{{ .Title }}</h1>
+    </div>
+
+    <div class="post-content">
+        <p>
+            {{ .Content }}
+        </p>
+    </div>
+
+    {{ if eq .Title "Contact" }}
+        <!-- {{ if isset .Site.Params "socialicons" }}
+            <section class="contact-social-icons">
+                <ul class="contact-social-icons-list">
+                    {{ range .Site.Params.SocialIcons }}
+                    <li class="contact-social-icon">
+                        <a href="{{ .url }}">
+                            <img class="svg-inject" src="{{ .Site.BaseURL }}/icons/{{ .name }}.svg" />
+                        </a>
+                        <a href="{{ .url }}">
+                            <p>{{ .url }}</p>
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </section>
+        {{ end }} -->
+
+        {{ if isset .Site.Params "socialicons" }}
+            <section class="social-icons">
+                <ul class="social-icons-list">
+                    {{ range .Site.Params.SocialIcons }}
+                    <li class="social-icon">
+                        <a href="{{ .url }}">
+                            <img class="svg-inject" src="{{ .Site.BaseURL }}/icons/{{ .name }}.svg" />
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </section>
+        {{ end }}
+    {{end}}
+        
+
+    {{ if isset .Site.Params "locationurl" }}
+        {{ if eq .Title "Contact" }}
+        <section class="social-icons">
+            <p>
+                <iframe src='{{ .Site.Params.locationURL }}' width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </p>
+        </section>
+        {{ end }}
+    {{ end }}
+
+</div>
+

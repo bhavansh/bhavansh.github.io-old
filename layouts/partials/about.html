@@ -1,0 +1,53 @@
+<div class="post container">
+
+    <div class="post-header-section">
+        <h1>{{ .Title }}</h1>
+    </div>
+
+    <div class="post-content">
+        <p>
+            {{ .Content }}
+        </p>
+    </div>
+
+    {{ if isset .Site.Params "experience" }}
+        <section class="social-icons">
+            {{ range $index, $element := .Site.Params.experience }}
+            {{ if eq (mod $index 2) 0 }}
+                <table class="experience">
+                    <tr>
+                        <td class="logo">
+                            <img class="company_logo" src='{{ .Site.BaseURL }}{{ .logo }}'>
+                            <p class="">{{ .name }}</p>
+                            <p class="job_title">{{ .job_title }}</p>
+                            <p class="date">{{ .date }}</p>
+                        </td>
+                        <td>
+                            {{ range $index, $p := .text }}
+                                <p class="work_done">{{ $p }}</p>
+                            {{ end }}
+                        </td>
+                    </tr>
+                </table>
+                {{ else }}
+                <table class="experience">
+                    <tr>
+                        <td>
+                            {{ range $index, $p := .text }}
+                                <p class="work_done">{{ $p }}</p>
+                            {{ end }}
+                        </td>
+                        <td class="logo">
+                            <img class="company_logo" src='{{ .Site.BaseURL }}{{ .logo }}'>
+                            <p class="">{{ .name }}</p>
+                            <p class="job_title">{{ .job_title }}</p>
+                            <p class="date">{{ .date }}</p>
+                        </td>
+                    </tr>
+                </table>
+                {{end}}
+            {{ end }}
+        </section>
+    {{ end }}
+</div>
+

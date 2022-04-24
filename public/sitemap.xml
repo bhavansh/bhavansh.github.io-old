@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://bhavansh.netlify.app/posts/markdown-syntax/</loc>
+    <lastmod>2022-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bhavansh.netlify.app/</loc>
+    <lastmod>2022-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bhavansh.netlify.app/tags/css/</loc>
+    <lastmod>2022-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bhavansh.netlify.app/tags/html/</loc>
+    <lastmod>2022-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bhavansh.netlify.app/tags/markdown/</loc>
+    <lastmod>2022-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bhavansh.netlify.app/posts/</loc>
+    <lastmod>2022-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bhavansh.netlify.app/tags/</loc>
+    <lastmod>2022-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bhavansh.netlify.app/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bhavansh.netlify.app/projects/bludhaven/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bhavansh.netlify.app/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bhavansh.netlify.app/certifications/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bhavansh.netlify.app/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bhavansh.netlify.app/projects/hydra/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bhavansh.netlify.app/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bhavansh.netlify.app/projects/reddit_clone/</loc>
+  </url>
+  
+</urlset>

@@ -1,0 +1,18 @@
+{{ define "main" }}
+    {{ if eq .Type "post" }}
+        {{- partial "post.html" . -}}
+    {{ end }}
+
+    {{ if eq .Type "page" }}
+        {{- partial "page.html" . -}}
+    {{ end }}
+
+    {{ if eq .Type "about" }}
+        {{- partial "about.html" . -}}
+    {{ end }}
+
+    {{ if eq .Type "certifications" }}
+        {{- partial "certifications.html" . -}}
+    {{end}}
+
+{{ end }}
