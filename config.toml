@@ -41,8 +41,11 @@ socialIcons = [
 ]
 # showpostsonhomepage = "recent"
 experience = [
-  # {name = "Interactive Brokers", logo = "/icons/companies/ibkr.svg", job_title = "FSG Intern (SLM Platform Development IND)", date = "Aug 2020 - June 2021", text = ["Will join in july 2022"]},
-  {name = "PTC", logo = "/icons/companies/ptc.svg", job_title = "FSG Intern (SLM Platform Development IND)", date = "Aug 2020 - June 2021", text = [
+  {name = "Interactive Brokers", logo = "/icons/companies/ibkr.svg", job_title = "FSG Intern (SLM Platform Development IND)", date = "July 2022 - Present", text = [
+    "Working in IBanking team as a Junior Software Engineer .",
+    "Responsible for updating/maintaining existing code for successful deployment and developing new features. ",
+  ]},
+  {name = "PTC", logo = "/icons/companies/ptc.svg", job_title = "FSG Intern (SLM Platform Development IND)", date = "Aug 2021 - June 2022", text = [
     "Working in PTC Arbortext (Arbortext Content Delivery) team as a full-time intern.",
     "PTC Arbortext Content Delivery provides a collection of tools and features to support the delivery of content authored in Windchill (SIM/SP), third-party system, or CSV data into PTC Arbortext Content Delivery.",
     "Responsible for creating new automations and updating existing automations for successful deployment and testing of ACD, closely working with QA to resolve bugs and failures. I successfully resolved SPR's which included some critical bug fixes. ",
