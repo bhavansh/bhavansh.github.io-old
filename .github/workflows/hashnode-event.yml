@@ -1,0 +1,17 @@
+name: Hashnode Webhook Trigger
+
+on:
+  repository_dispatch:
+    types: [hashnode_event]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    # Add your custom steps here
+    - name: Run a script
+      run: echo "Hashnode webhook received!"
